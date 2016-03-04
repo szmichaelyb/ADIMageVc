@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30576C4A1C0D37E50039DF1A /* ADImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30576C491C0D37E50039DF1A /* ADImageViewController.m */; };
+		30576C4D1C0D3CB20039DF1A /* ADImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30576C4C1C0D3CB20039DF1A /* ADImageInfo.m */; };
+		30576C501C0D7D460039DF1A /* UIImage+ADImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 30576C4F1C0D7D460039DF1A /* UIImage+ADImageEffects.m */; };
+		30D943B41C86908D00227C56 /* girls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30D943B31C86908D00227C56 /* girls.jpg */; };
+		30E2EDC61C0C584500D44245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2EDC51C0C584500D44245 /* main.m */; };
+		30E2EDC91C0C584500D44245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2EDC81C0C584500D44245 /* AppDelegate.m */; };
+		30E2EDCC1C0C584500D44245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2EDCB1C0C584500D44245 /* ViewController.m */; };
+		30E2EDCF1C0C584500D44245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDCD1C0C584500D44245 /* Main.storyboard */; };
+		30E2EDD11C0C584500D44245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDD01C0C584500D44245 /* Assets.xcassets */; };
+		30E2EDD41C0C584500D44245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDD21C0C584500D44245 /* LaunchScreen.storyboard */; };
+		30E2EDDF1C0C584500D44245 /* ADIMageVcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2EDDE1C0C584500D44245 /* ADIMageVcTests.m */; };
+		30E2EDEA1C0C584500D44245 /* ADIMageVcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2EDE91C0C584500D44245 /* ADIMageVcUITests.m */; };
+		30E2EDFC1C0C595B00D44245 /* banecat-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDF71C0C595B00D44245 /* banecat-red.png */; };
+		30E2EDFD1C0C595B00D44245 /* banecat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDF81C0C595B00D44245 /* banecat.jpg */; };
+		30E2EDFE1C0C595B00D44245 /* Default-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDF91C0C595B00D44245 /* Default-1136.png */; };
+		30E2EDFF1C0C595B00D44245 /* Default-1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDFA1C0C595B00D44245 /* Default-1334.png */; };
+		30E2EE001C0C595B00D44245 /* Default-2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E2EDFB1C0C595B00D44245 /* Default-2208.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E2EDDB1C0C584500D44245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E2EDB91C0C584500D44245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E2EDC01C0C584500D44245;
+			remoteInfo = ADIMageVc;
+		};
+		30E2EDE61C0C584500D44245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E2EDB91C0C584500D44245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E2EDC01C0C584500D44245;
+			remoteInfo = ADIMageVc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30576C481C0D37E50039DF1A /* ADImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageViewController.h; sourceTree = "<group>"; };
+		30576C491C0D37E50039DF1A /* ADImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageViewController.m; sourceTree = "<group>"; };
+		30576C4B1C0D3CB20039DF1A /* ADImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageInfo.h; sourceTree = "<group>"; };
+		30576C4C1C0D3CB20039DF1A /* ADImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageInfo.m; sourceTree = "<group>"; };
+		30576C4E1C0D7D460039DF1A /* UIImage+ADImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ADImageEffects.h"; sourceTree = "<group>"; };
+		30576C4F1C0D7D460039DF1A /* UIImage+ADImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ADImageEffects.m"; sourceTree = "<group>"; };
+		30D943B31C86908D00227C56 /* girls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girls.jpg; sourceTree = "<group>"; };
+		30E2EDC11C0C584500D44245 /* ADIMageVc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADIMageVc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E2EDC51C0C584500D44245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30E2EDC71C0C584500D44245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30E2EDC81C0C584500D44245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30E2EDCA1C0C584500D44245 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30E2EDCB1C0C584500D44245 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30E2EDCE1C0C584500D44245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E2EDD01C0C584500D44245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E2EDD31C0C584500D44245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E2EDD51C0C584500D44245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E2EDDA1C0C584500D44245 /* ADIMageVcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADIMageVcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E2EDDE1C0C584500D44245 /* ADIMageVcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADIMageVcTests.m; sourceTree = "<group>"; };
+		30E2EDE01C0C584500D44245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E2EDE51C0C584500D44245 /* ADIMageVcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADIMageVcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E2EDE91C0C584500D44245 /* ADIMageVcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADIMageVcUITests.m; sourceTree = "<group>"; };
+		30E2EDEB1C0C584500D44245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E2EDF71C0C595B00D44245 /* banecat-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banecat-red.png"; sourceTree = "<group>"; };
+		30E2EDF81C0C595B00D44245 /* banecat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banecat.jpg; sourceTree = "<group>"; };
+		30E2EDF91C0C595B00D44245 /* Default-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-1136.png"; sourceTree = "<group>"; };
+		30E2EDFA1C0C595B00D44245 /* Default-1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-1334.png"; sourceTree = "<group>"; };
+		30E2EDFB1C0C595B00D44245 /* Default-2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-2208.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E2EDBE1C0C584500D44245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E2EDD71C0C584500D44245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E2EDE21C0C584500D44245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30576C471C0D36BB0039DF1A /* myImageTransition */ = {
+			isa = PBXGroup;
+			children = (
+				30576C481C0D37E50039DF1A /* ADImageViewController.h */,
+				30576C491C0D37E50039DF1A /* ADImageViewController.m */,
+				30576C4B1C0D3CB20039DF1A /* ADImageInfo.h */,
+				30576C4C1C0D3CB20039DF1A /* ADImageInfo.m */,
+				30576C4E1C0D7D460039DF1A /* UIImage+ADImageEffects.h */,
+				30576C4F1C0D7D460039DF1A /* UIImage+ADImageEffects.m */,
+			);
+			path = myImageTransition;
+			sourceTree = "<group>";
+		};
+		30E2EDB81C0C584500D44245 = {
+			isa = PBXGroup;
+			children = (
+				30576C471C0D36BB0039DF1A /* myImageTransition */,
+				30E2EDC31C0C584500D44245 /* ADIMageVc */,
+				30E2EDDD1C0C584500D44245 /* ADIMageVcTests */,
+				30E2EDE81C0C584500D44245 /* ADIMageVcUITests */,
+				30E2EDC21C0C584500D44245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E2EDC21C0C584500D44245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E2EDC11C0C584500D44245 /* ADIMageVc.app */,
+				30E2EDDA1C0C584500D44245 /* ADIMageVcTests.xctest */,
+				30E2EDE51C0C584500D44245 /* ADIMageVcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E2EDC31C0C584500D44245 /* ADIMageVc */ = {
+			isa = PBXGroup;
+			children = (
+				30E2EDC71C0C584500D44245 /* AppDelegate.h */,
+				30E2EDC81C0C584500D44245 /* AppDelegate.m */,
+				30E2EDCA1C0C584500D44245 /* ViewController.h */,
+				30E2EDCB1C0C584500D44245 /* ViewController.m */,
+				30E2EDCD1C0C584500D44245 /* Main.storyboard */,
+				30E2EDD01C0C584500D44245 /* Assets.xcassets */,
+				30E2EDD21C0C584500D44245 /* LaunchScreen.storyboard */,
+				30E2EDD51C0C584500D44245 /* Info.plist */,
+				30E2EDC41C0C584500D44245 /* Supporting Files */,
+			);
+			path = ADIMageVc;
+			sourceTree = "<group>";
+		};
+		30E2EDC41C0C584500D44245 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E2EDF71C0C595B00D44245 /* banecat-red.png */,
+				30D943B31C86908D00227C56 /* girls.jpg */,
+				30E2EDF81C0C595B00D44245 /* banecat.jpg */,
+				30E2EDF91C0C595B00D44245 /* Default-1136.png */,
+				30E2EDFA1C0C595B00D44245 /* Default-1334.png */,
+				30E2EDFB1C0C595B00D44245 /* Default-2208.png */,
+				30E2EDC51C0C584500D44245 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30E2EDDD1C0C584500D44245 /* ADIMageVcTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E2EDDE1C0C584500D44245 /* ADIMageVcTests.m */,
+				30E2EDE01C0C584500D44245 /* Info.plist */,
+			);
+			path = ADIMageVcTests;
+			sourceTree = "<group>";
+		};
+		30E2EDE81C0C584500D44245 /* ADIMageVcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30E2EDE91C0C584500D44245 /* ADIMageVcUITests.m */,
+				30E2EDEB1C0C584500D44245 /* Info.plist */,
+			);
+			path = ADIMageVcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E2EDC01C0C584500D44245 /* ADIMageVc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E2EDEE1C0C584500D44245 /* Build configuration list for PBXNativeTarget "ADIMageVc" */;
+			buildPhases = (
+				30E2EDBD1C0C584500D44245 /* Sources */,
+				30E2EDBE1C0C584500D44245 /* Frameworks */,
+				30E2EDBF1C0C584500D44245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADIMageVc;
+			productName = ADIMageVc;
+			productReference = 30E2EDC11C0C584500D44245 /* ADIMageVc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E2EDD91C0C584500D44245 /* ADIMageVcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E2EDF11C0C584500D44245 /* Build configuration list for PBXNativeTarget "ADIMageVcTests" */;
+			buildPhases = (
+				30E2EDD61C0C584500D44245 /* Sources */,
+				30E2EDD71C0C584500D44245 /* Frameworks */,
+				30E2EDD81C0C584500D44245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E2EDDC1C0C584500D44245 /* PBXTargetDependency */,
+			);
+			name = ADIMageVcTests;
+			productName = ADIMageVcTests;
+			productReference = 30E2EDDA1C0C584500D44245 /* ADIMageVcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30E2EDE41C0C584500D44245 /* ADIMageVcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E2EDF41C0C584500D44245 /* Build configuration list for PBXNativeTarget "ADIMageVcUITests" */;
+			buildPhases = (
+				30E2EDE11C0C584500D44245 /* Sources */,
+				30E2EDE21C0C584500D44245 /* Frameworks */,
+				30E2EDE31C0C584500D44245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E2EDE71C0C584500D44245 /* PBXTargetDependency */,
+			);
+			name = ADIMageVcUITests;
+			productName = ADIMageVcUITests;
+			productReference = 30E2EDE51C0C584500D44245 /* ADIMageVcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E2EDB91C0C584500D44245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = adu;
+				TargetAttributes = {
+					30E2EDC01C0C584500D44245 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					30E2EDD91C0C584500D44245 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 30E2EDC01C0C584500D44245;
+					};
+					30E2EDE41C0C584500D44245 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 30E2EDC01C0C584500D44245;
+					};
+				};
+			};
+			buildConfigurationList = 30E2EDBC1C0C584500D44245 /* Build configuration list for PBXProject "ADIMageVc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E2EDB81C0C584500D44245;
+			productRefGroup = 30E2EDC21C0C584500D44245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E2EDC01C0C584500D44245 /* ADIMageVc */,
+				30E2EDD91C0C584500D44245 /* ADIMageVcTests */,
+				30E2EDE41C0C584500D44245 /* ADIMageVcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E2EDBF1C0C584500D44245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E2EDFC1C0C595B00D44245 /* banecat-red.png in Resources */,
+				30D943B41C86908D00227C56 /* girls.jpg in Resources */,
+				30E2EE001C0C595B00D44245 /* Default-2208.png in Resources */,
+				30E2EDD41C0C584500D44245 /* LaunchScreen.storyboard in Resources */,
+				30E2EDFE1C0C595B00D44245 /* Default-1136.png in Resources */,
+				30E2EDFD1C0C595B00D44245 /* banecat.jpg in Resources */,
+				30E2EDD11C0C584500D44245 /* Assets.xcassets in Resources */,
+				30E2EDFF1C0C595B00D44245 /* Default-1334.png in Resources */,
+				30E2EDCF1C0C584500D44245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E2EDD81C0C584500D44245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E2EDE31C0C584500D44245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E2EDBD1C0C584500D44245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E2EDCC1C0C584500D44245 /* ViewController.m in Sources */,
+				30576C501C0D7D460039DF1A /* UIImage+ADImageEffects.m in Sources */,
+				30576C4A1C0D37E50039DF1A /* ADImageViewController.m in Sources */,
+				30E2EDC91C0C584500D44245 /* AppDelegate.m in Sources */,
+				30576C4D1C0D3CB20039DF1A /* ADImageInfo.m in Sources */,
+				30E2EDC61C0C584500D44245 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E2EDD61C0C584500D44245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E2EDDF1C0C584500D44245 /* ADIMageVcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E2EDE11C0C584500D44245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E2EDEA1C0C584500D44245 /* ADIMageVcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E2EDDC1C0C584500D44245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E2EDC01C0C584500D44245 /* ADIMageVc */;
+			targetProxy = 30E2EDDB1C0C584500D44245 /* PBXContainerItemProxy */;
+		};
+		30E2EDE71C0C584500D44245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E2EDC01C0C584500D44245 /* ADIMageVc */;
+			targetProxy = 30E2EDE61C0C584500D44245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E2EDCD1C0C584500D44245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E2EDCE1C0C584500D44245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E2EDD21C0C584500D44245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E2EDD31C0C584500D44245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E2EDEC1C0C584500D44245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E2EDED1C0C584500D44245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E2EDEF1C0C584500D44245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADIMageVc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daheidou.ADIMageVc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30E2EDF01C0C584500D44245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADIMageVc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daheidou.ADIMageVc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30E2EDF21C0C584500D44245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADIMageVcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daheidou.ADIMageVcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADIMageVc.app/ADIMageVc";
+			};
+			name = Debug;
+		};
+		30E2EDF31C0C584500D44245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADIMageVcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daheidou.ADIMageVcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADIMageVc.app/ADIMageVc";
+			};
+			name = Release;
+		};
+		30E2EDF51C0C584500D44245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADIMageVcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daheidou.ADIMageVcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADIMageVc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		30E2EDF61C0C584500D44245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADIMageVcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daheidou.ADIMageVcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADIMageVc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E2EDBC1C0C584500D44245 /* Build configuration list for PBXProject "ADIMageVc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E2EDEC1C0C584500D44245 /* Debug */,
+				30E2EDED1C0C584500D44245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E2EDEE1C0C584500D44245 /* Build configuration list for PBXNativeTarget "ADIMageVc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E2EDEF1C0C584500D44245 /* Debug */,
+				30E2EDF01C0C584500D44245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E2EDF11C0C584500D44245 /* Build configuration list for PBXNativeTarget "ADIMageVcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E2EDF21C0C584500D44245 /* Debug */,
+				30E2EDF31C0C584500D44245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E2EDF41C0C584500D44245 /* Build configuration list for PBXNativeTarget "ADIMageVcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E2EDF51C0C584500D44245 /* Debug */,
+				30E2EDF61C0C584500D44245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E2EDB91C0C584500D44245 /* Project object */;
+}
